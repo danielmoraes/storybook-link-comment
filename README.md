@@ -49,7 +49,7 @@ jobs:
           exitOnceUploaded: true
 
       - name: PR comment with Storybook link
-        uses: danielmoraes/storybook-link-comment@v0.12
+        uses: danielmoraes/storybook-link-comment@0.12
         with:
           app-id: ${{ secrets.CHROMATIC_APP_ID }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
